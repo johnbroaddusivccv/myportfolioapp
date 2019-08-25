@@ -1,11 +1,22 @@
 import React from "react";
-import Logo from "./logo.svg";
+// import Logo from "./logo.svg";
 import "./App.css";
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={Logo} className="App-logo" alt="logo" />
+        <img
+          src="https://img.pngio.com/fileei-sc-githubsvg-github-png-768_768.png"
+          className="App-logo"
+          alt="logo"
+        />
+        <img
+          src="https://img.pngio.com/fileei-sc-githubsvg-github-png-768_768.png"
+          className="App-logo"
+          alt="logo"
+        />
+
+        <img src="" className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
