@@ -6,17 +6,15 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img
-          src="https://img.pngio.com/fileei-sc-githubsvg-github-png-768_768.png"
+          src="https://cdn4.iconfinder.com/data/icons/free-colorful-icons/360/gmail.png"
           className="App-logo"
           alt="logo"
         />
         <img
-          src="https://img.pngio.com/fileei-sc-githubsvg-github-png-768_768.png"
+          src="https://www.freepnglogos.com/uploads/linkedin-blue-style-logo-png-0.png"
           className="App-logo"
           alt="logo"
         />
-
-        <img src="" className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
