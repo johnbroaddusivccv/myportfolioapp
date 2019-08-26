@@ -2,19 +2,31 @@
   text-align: center;
 }
 
-.App-logo {
+.App-logo,
+i {
   animation: App-logo-spin infinite 20s linear;
   height: 15vmin;
   pointer-events: none;
   float: left;
 }
 
+li {
+  display: inline;
+  margin: 1rem;
+}
+
+li:hover {
+  opacity: 0.09;
+  color: azure;
+}
+
 .App-header {
   background-color: #678;
-  /* background: url("https://thumbs.dreamstime.com/z/swiss-army-knife-multiple-tools-inside-there-scissors-saw-screwdriver-tin-can-opener-other-tools-ink-drawn-36179281.jpg") */
-  /* no-repeat fixed center; */
+  background: url("https://i1.wp.com/amandabradburn.com/wp-content/uploads/2017/12/pexels-photo-678248.png?fit=1280%2C748&ssl=1")
+    no-repeat fixed center;
   min-height: 100vh;
   display: flex;
+  opacity: 1;
   /* flex-direction: column;
   align-items: center;
   justify-content: center; */
