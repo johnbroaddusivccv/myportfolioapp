@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import StackIt from "./components/stackgrid/Stackgrid";
+import Biometric from "./components/bio/Bio";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLink,
@@ -49,6 +50,9 @@ function App() {
       </header>
       <div className="AboutMe">
         <StackIt />
+      </div>
+      <div>
+        <Biometric />
       </div>
     </div>
   );
