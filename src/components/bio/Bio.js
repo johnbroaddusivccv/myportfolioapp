@@ -7,8 +7,8 @@ class Biometric extends Component {
     return (
       <StackGrid className="NewIdea" columnWidth={245}>
         <div key="key1">
-          <h3>Education</h3>
-          <p style={{ border: "1px solid rgb(0, 0, 0)" }}>
+          <h3 style={{ textAlign: "center" }}>Education</h3>
+          <p>
             Attending a six month accelerated part time program held at The
             University of Texas at Austin. Here is a list of skills in which I
             have gained experience: JavaScript, HTML5, CSS, jQuery, Responsive
@@ -18,13 +18,13 @@ class Biometric extends Component {
           </p>
         </div>
         <div key="key2">
-          <h3>Projects</h3>
+          <h3 style={{ textAlign: "center" }}>Projects</h3>
         </div>
         <div key="key3">
-          <h3>Work History</h3>
+          <h3 style={{ textAlign: "center" }}>Work History</h3>
         </div>
         <div key="key4">
-          <h3>Volunteer Work</h3>
+          <h3 style={{ textAlign: "center" }}>Volunteer Work</h3>
         </div>
       </StackGrid>
     );
