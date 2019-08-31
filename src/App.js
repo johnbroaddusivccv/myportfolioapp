@@ -27,18 +27,10 @@ function App() {
             <FontAwesomeIcon icon={faFileArchive} />
           </li>
         </ul>
-        <div className="aboutMe">
-          <StackIt />
-        </div>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <div className="AboutMe">
+        <StackIt />
+      </div>
     </div>
   );
 }
