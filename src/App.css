@@ -16,8 +16,8 @@ li {
 }
 
 li:hover {
-  opacity: 0.09;
-  color: azure;
+  /* opacity: 0.9; */
+  color: #e4e9ebd7;
 }
 
 .App-header {
@@ -39,9 +39,15 @@ li:hover {
 }
 
 .AboutMe {
-  background: #61dafb;
+  background: #e4e9ebd7;
   float: inline-start;
   margin: 2rem;
+  padding: 10px;
+}
+
+html {
+  background: url("https://2.bp.blogspot.com/-jc2YFM7--wY/Wbi1QYjN5TI/AAAAAAAAIoI/4y4pgHVCUkYVgky1w1RBTgUH-K2FY1ZWwCLcBGAs/s1600/Mullae%2BArt%2BVillage%2B4.jpg")
+    no-repeat fixed center;
 }
 /* 
 @keyframes App-logo-spin {

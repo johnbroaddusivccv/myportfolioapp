@@ -6,7 +6,8 @@ import {
   faLink,
   faMailBulk,
   faStroopwafel,
-  faFileArchive
+  faFileArchive,
+  faCat
 } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
@@ -15,16 +16,34 @@ function App() {
       <header className="App-header">
         <ul>
           <li>
-            <FontAwesomeIcon icon={faMailBulk} />
+            <FontAwesomeIcon
+              style={{ height: "40", width: "40" }}
+              icon={faMailBulk}
+            />
           </li>
           <li>
-            <FontAwesomeIcon icon={faLink} />
+            <FontAwesomeIcon
+              style={{ height: "40", width: "40" }}
+              icon={faLink}
+            />
           </li>
           <li>
-            <FontAwesomeIcon icon={faStroopwafel} />
+            <FontAwesomeIcon
+              style={{ height: "40", width: "40" }}
+              icon={faStroopwafel}
+            />
           </li>
           <li>
-            <FontAwesomeIcon icon={faFileArchive} />
+            <FontAwesomeIcon
+              style={{ height: "40", width: "40" }}
+              icon={faFileArchive}
+            />
+          </li>
+          <li>
+            <FontAwesomeIcon
+              style={{ height: "40", width: "40" }}
+              icon={faCat}
+            />
           </li>
         </ul>
       </header>
