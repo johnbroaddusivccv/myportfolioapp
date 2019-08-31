@@ -6,7 +6,7 @@ class StackIt extends Component {
   render() {
     return (
       <StackGrid columnWidth={300}>
-        <div key="key1">
+        <div className="FutureIdea" key="key1">
           <img src="https://media.licdn.com/dms/image/C4E03AQHYD23JjKy6NA/profile-displayphoto-shrink_200_200/0?e=1572480000&v=beta&t=dXlbEZR8Ppfhs-xsEV3PZaVqLPg1IcRYQ1kT2aor6w8" />
         </div>
         <div key="key2">
@@ -23,7 +23,11 @@ class StackIt extends Component {
           </span>
         </div>
         <div key="key3">
-          <img src="#" />
+          <span>
+            Lorem ipsum dolor sit amet, prompta aliquid aliquam sit ea, vero
+            sonet ex mel. In vim vitae periculis euripidis, nam tota ceteros
+            nostrum et. Qui id novum convenire liberavisse. Mel ea mentitum
+          </span>
         </div>
       </StackGrid>
     );
