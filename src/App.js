@@ -14,6 +14,19 @@ import {
 function App() {
   return (
     <div className="App">
+      <h1
+        style={{
+          color: "Azure",
+          height: "150",
+          width: "150",
+          textAlign: "center",
+          background: "black",
+          border: "5px solid white",
+          opacity: "1"
+        }}
+      >
+        John Morgan Broaddus IV
+      </h1>
       <header className="App-header">
         <ul>
           <li>

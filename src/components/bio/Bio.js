@@ -22,6 +22,20 @@ class Biometric extends Component {
         </div>
         <div key="key3">
           <h3 style={{ textAlign: "center" }}>Work History</h3>
+          <h4 style={{ textAlign: "center" }}>
+            Warehouse Receiving Manager (April 2018 - Present)
+          </h4>
+          <p>
+            Employed full time and assists with operations of everything quality
+            control and hospitality. The Clients satisfaction is Paramount. Lead
+            in ordering Merchandise for resale, such as material for
+            Micromarkets and vending Machines. Responsibilities include aligning
+            the day to day Receiving Department schedule with consideration of
+            the typical workflow. Operating heavy machinery in a closed
+            enviroment. In charge of Coordinating and Organizing where the
+            location of received merchandise would best reside. Iventory
+            control, adjusting Inventory with MEI Software.
+          </p>
         </div>
         <div key="key4">
           <h3 style={{ textAlign: "center" }}>Volunteer Work</h3>
