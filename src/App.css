@@ -16,9 +16,19 @@ li {
   margin: 1rem;
 }
 
-li:hover {
+path:hover,
+li:hover,
+a:hover {
   /* opacity: 0.9; */
   color: #e4e9ebd7;
+}
+
+ul {
+  background-color: #e4e9ebd7;
+  margin: 0.5rem;
+  padding: 10px;
+  border: 5px solid rgb(0, 0, 0);
+  font-size: 13px;
 }
 
 .App-header {
@@ -28,7 +38,10 @@ li:hover {
   min-height: 15vh;
   display: flex;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 0, 0);
+  margin: 2rem;
+  padding: 10px;
+  border: 5px solid rgb(0, 0, 0);
 }
 
 .App-link {

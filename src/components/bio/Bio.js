@@ -8,13 +8,16 @@ class Biometric extends Component {
       <StackGrid className="NewIdea" columnWidth={245}>
         <div key="key1">
           <h3 style={{ textAlign: "center" }}>Education</h3>
+          <h4 style={{ textAlign: "center" }}>
+            The University of Texas at Austin (February 2019-August 2019)
+          </h4>
           <p>
-            Attending a six month accelerated part time program held at The
-            University of Texas at Austin. Here is a list of skills in which I
-            have gained experience: JavaScript, HTML5, CSS, jQuery, Responsive
-            Design, Bootstrap, React.js, MongoDB, PHP/Laravel, MySQL,
-            Git/Github, Heroku, Security and Session Storage, Google FireBase,
-            Node.js/Express, User Authentication, and much more.
+            Participated in a six month accelerated part time program held at
+            The University of Texas at Austin. Here is a list of skills in which
+            I have sharpened: JavaScript, HTML5, CSS, jQuery, Responsive Design,
+            Bootstrap, React, MongoDB, PHP/Laravel, MySQL, Git/Github, Heroku,
+            Security and Session Storage, Google FireBase, Node.js/Express, User
+            Authentication, and much more.
           </p>
         </div>
         <div key="key2">
@@ -23,7 +26,7 @@ class Biometric extends Component {
         <div key="key3">
           <h3 style={{ textAlign: "center" }}>Work History</h3>
           <h4 style={{ textAlign: "center" }}>
-            Warehouse Receiving Manager (April 2018 - Present)
+            Capitol Vending & Coffee Receiving Manager (April 2018-Present)
           </h4>
           <p>
             Employed full time and assists with operations of everything quality
@@ -39,6 +42,16 @@ class Biometric extends Component {
         </div>
         <div key="key4">
           <h3 style={{ textAlign: "center" }}>Volunteer Work</h3>
+          <h4 style={{ textAlign: "center" }}>
+            Joi Community Outreach/Austin School of Film
+          </h4>
+          <p>
+            Assist in preparing for events that reach out to low-income
+            communities in East Austin, we host Dominoe Tournaments and Card
+            Games with cash Prizes quarterly. Monthly Service Commitment to give
+            freely of my time to the Austin School of Film/JOI Community
+            Outreach.
+          </p>
         </div>
       </StackGrid>
     );
