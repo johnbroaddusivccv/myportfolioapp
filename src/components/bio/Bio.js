@@ -5,8 +5,8 @@ import "./Bio.css";
 class Biometric extends Component {
   render() {
     return (
-      <StackGrid className="NewIdea" columnWidth={245}>
-        <div key="key1">
+      <StackGrid className="NewIdea" columnWidth={300}>
+        <div data-aos="fade-left" key="key1">
           <h3 style={{ textAlign: "center" }}>Education</h3>
           <h4 style={{ textAlign: "center" }}>
             The University of Texas at Austin (February 2019-August 2019)
@@ -20,10 +20,7 @@ class Biometric extends Component {
             Authentication, and much more.
           </p>
         </div>
-        <div key="key2">
-          <h3 style={{ textAlign: "center" }}>Projects</h3>
-        </div>
-        <div key="key3">
+        <div data-aos="fade-left" key="key2">
           <h3 style={{ textAlign: "center" }}>Work History</h3>
           <h4 style={{ textAlign: "center" }}>
             Capitol Vending & Coffee Receiving Manager (April 2018-Present)
@@ -34,13 +31,12 @@ class Biometric extends Component {
             in ordering Merchandise for resale, such as material for
             Micromarkets and vending Machines. Responsibilities include aligning
             the day to day Receiving Department schedule with consideration of
-            the typical workflow. Operating heavy machinery in a closed
-            enviroment. In charge of Coordinating and Organizing where the
-            location of received merchandise would best reside. Iventory
+            the typical workflow. In charge of Coordinating and Organizing where
+            the location of received merchandise would best reside. Iventory
             control, adjusting Inventory with MEI Software.
           </p>
         </div>
-        <div key="key4">
+        <div data-aos="fade-up" key="key3">
           <h3 style={{ textAlign: "center" }}>Volunteer Work</h3>
           <h4 style={{ textAlign: "center" }}>
             Joi Community Outreach/Austin School of Film

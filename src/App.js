@@ -9,6 +9,7 @@ import {
   faFileArchive,
   faCat
 } from "@fortawesome/free-solid-svg-icons";
+import Project from "./components/projectgallery/Project";
 
 function App() {
   return (
@@ -84,6 +85,7 @@ function App() {
       <div>
         <Biometric />
       </div>
+      <Project />
     </div>
   );
 }

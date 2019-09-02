@@ -8,7 +8,10 @@ class StackIt extends Component {
       <StackGrid columnWidth={275}>
         <div className="FutureIdea" key="key1">
           <p>
-            <img src="https://media.licdn.com/dms/image/C4E03AQHYD23JjKy6NA/profile-displayphoto-shrink_200_200/0?e=1572480000&v=beta&t=dXlbEZR8Ppfhs-xsEV3PZaVqLPg1IcRYQ1kT2aor6w8" />
+            <img
+              className="jmbiv"
+              src="https://media.licdn.com/dms/image/C4E03AQHYD23JjKy6NA/profile-displayphoto-shrink_200_200/0?e=1572480000&v=beta&t=dXlbEZR8Ppfhs-xsEV3PZaVqLPg1IcRYQ1kT2aor6w8"
+            />
           </p>
         </div>
         <div key="key2">
